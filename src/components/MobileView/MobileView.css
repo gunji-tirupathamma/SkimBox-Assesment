@@ -1,0 +1,19 @@
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .elements-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .element-container-button {
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    border: 1px solid gray;
+  }
+  .element-container-button:hover {
+    border-top: 3px solid gray;
+  }
+  

@@ -1,0 +1,64 @@
+.web-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #fff, #f7fafa, #8cffff);
+    background-size: cover;
+    height: 110vh;
+    position: absolute;
+    width: 100vw;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .web-container {
+      display: none;
+    }
+  }
+  .payment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    height: 40px;
+    align-items: center;
+    width: 320px;
+    align-self: center;
+    margin-top: 50px;
+  }
+  .monthly-pay {
+    background-color: black;
+    border-radius: 20px;
+    color: #fff;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 0px;
+    font-weight: 600;
+  }
+  
+  .monthly-pay:hover {
+    background-color: transparent;
+    color: #000;
+  }
+  .year-pay {
+    font-weight: 600;
+    height: 30px;
+  }
+  
+  .year-pay:hover {
+    background-color: gray;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .items-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
